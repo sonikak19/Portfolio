@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonika's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Navbar-->
+
+    <header>
+        <nav class="navbar" id="myNavbar">
+            <div class="menu" id="home">
+                <img src="SK.png" class=" mylogo"></a>
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+                &#9776;
+            </a>
+        </nav>
+    </header>
+
+    <!--Intro-->
+
+        <div class="introduction">
+            <div class="introText">
+                Hi there! It's <h2 style="color: #EA047E; background-color: transparent;
+                font-family: cursive;">Sonika Kulkarni.</h2>I am a Web Developer
+                <button class="download-button" onclick="downloadResume()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
+                    <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/></svg>
+                    Resume
+                </button>
+            </div>
+            <img class="introimg" src="nick-morrison-FHnnjk1Yj7Y-unsplash.jpg" alt="Working desk">
+        </div>
+    
+    <!--About-->
+
+    <div class="aboutbox" id="about">
+        <div class="about">
+            <h2>About Me!</h2>
+            <div class="aboutcontents">
+                <div class="qualifications">
+                    <div class="sakec">
+                        <h4>B.Tech Computer Engg.</h4>
+                        Currently pursuing 3rd year at Shah and Anchor Kutchhi Engineering College.
+                    </div>
+                    <div class="royal">
+                        <h4>HSC</h4>
+                        Completed HSC from Royal Junior College of Commerce and Science.
+                    </div>
+                    <div class="vn">
+                        <h4>SSC</h4>
+                        Completed my SSC from Vidya Niketan School.
+                    </div>
+                </div>
+                Hello, I'm Sonika Kulkarni, a Computer Engineering student with a strong foundation in programming and web development. I have extensive experience in languages such as C and Python, and I am proficient in HTML, CSS, and JavaScript. My passion lies in both web and app development, where I continually seek to expand my skills and knowledge. Beyond my technical pursuits, I am an avid singer, traveler, and painter, which enriches my creativity and problem-solving abilities.
+            </div> 
+        </div>
+    </div>
+
+    <!--Skills-->
+
+    <div class="skillbox" id="skills">
+        <div class="skills">
+            <h2>My Skills</h2>
+            <div class="skillscontent">
+                <div class="everyskill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/></svg>
+                    <h3>C Programming</h3>
+                </div>
+                <div class="everyskill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/></svg>
+                    <h3>Python</h3>
+                </div>
+                <div class="everyskill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/></svg>
+                    <h3>HTML</h3>
+                </div>
+                <div class="everyskill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/></svg>
+                    <h3>CSS</h3>
+                </div>
+                <div class="everyskill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/></svg>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="everyskill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/></svg>
+                    <h3>Graphics</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Projects-->
+    <div class="projectbox" id="projects">
+        <div class="project">
+            <h2>My Projects</h2>
+                <div class="actualprojects">
+                <a href="https://sonikak19.github.io/Carbon_footprint/home">
+                    <div class="everyprojects">
+                        <img src="cf_logo.jpeg" alt="carbon footprint calculator logo" class="projectimgs">
+                        Carbon_Footprint
+                    </div>
+                </a>
+                <a href="calci_index.html">
+                    <div class="everyprojects">
+                        <img src="calci_logo.png" alt="calculator logo" class="projectimgs">
+                        Calculator
+                    </div>
+                </a>
+                <a href="word_counter.py">
+                    <div class="everyprojects">
+                        <img src="wc_img.jpg" alt="words" class="projectimgs">
+                        Simple Word Counter
+                    </div>
+                </a>
+            </div>
+        </div>
+        <footer id="contact">
+            <div class="footerbox">
+                <p>Contact me:</p>
+                    <a href="mailto:sonika.17177@sakec.ac.in" id="email">Email</a>
+                    <a href="www.linkedin.com/in/sonika-kulkarni-b9734125b" id="linkedin" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/sonikak19" id="github" target="_blank">GitHub</a>
+            </div>
+            <p class="footer-note">&copy; 2024 Sonika. All rights reserved.</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>

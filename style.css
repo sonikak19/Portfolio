@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+  background: linear-gradient(0deg, #D0A2F7, #DCBFFF, #E5D4FF, #F1EAFF);
+  scroll-behavior: smooth;
+}
+
+/**********************navbar***********************/
+
+header {
+  background-color: transparent;
+  color: #FF6D28;
+}
+
+.mylogo{
+  width: 70px;
+  height: 70px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+}
+
+.nav-link {
+  color: #FF6D28;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.icon {
+  display: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FF6D28;
+  text-decoration: none;
+}
+
+/***************************intro*************************/
+
+.introduction{
+  margin: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 700px;
+  width: 1200px;
+  font-size: 30px;
+  color: black;
+}
+
+.introText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  color: black; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: darkblue;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+}
+.download-button:hover {
+  color: black;
+  background-color: #00F5FF;
+}
+
+.introimg{
+  background-color: transparent;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin: 30px;
+  height: 500px;
+  width: 700px;
+  border-radius: 40px;
+}
+
+/**************************about***************************/
+
+.aboutbox{
+  background-color: transparent;
+  margin: 20px;
+  padding: 10px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 25px;
+  width: 1200px;
+  height: 600px;
+  font-size: 20px;
+  border: solid 2px black;
+}
+
+.aboutcontents{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qualifications{
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.sakec{
+  background-color: #00F5FF;
+  border-radius: 20px;
+  height: 150px;
+  width: 200px;
+  padding: 10px;
+  font-size: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
+
+.royal{
+  background-color: #FF6D28;
+  border-radius: 20px;
+  height: 150px;
+  width: 200px;
+  padding: 10px;
+  font-size: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
+
+.vn{
+  background-color: #FCE700;
+  border-radius: 20px;
+  height: 150px;
+  width: 200px;
+  padding: 10px;
+  font-size: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
+
+/***********************skills******************************/
+
+.skillbox{
+  margin: 80px;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 25px;
+  width: 1200px;
+  height: 200px;
+  font-size: 20px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.skillscontent{
+  display: flex;
+  font-size: 20px;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.everyskill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 10px;
+}
+
+svg{
+  width: 30px;
+  height: 25px;
+}
+
+/***********************projects***********************/
+.projectbox{
+  background-color: transparent;
+  margin: 20px;
+  padding: 40px;
+}
+
+.project{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 25px;
+  width: 1200px;
+  height: 800px;
+}
+
+.actualprojects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 25px;
+  width: 1200px;
+  height: 800px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a{ 
+  text-decoration: none;
+  color: black;
+}
+
+.everyprojects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 5px 10px 18px #888888;
+  margin: 20px;
+  padding: 10px;
+  height: 300px;
+  width: 250px;
+}
+
+.projectimgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+/*************************footer************************/
+footer {
+  font-size: 30px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+  width: 100%;
+  height: 150px;
+  margin: 20px;
+}
+
+footer a {
+  color: #EA047E;
+  font-size: 25px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+footer a:hover {
+  color: #FCE700;
+}
+
+footer .footer-note {
+  font-size: 20px;
+}
+
+/**********************responsive*********************/
+
+@media screen and (max-width: 850px) {
+
+  header {
+    color: #FF6D28;
+    width: 100%;
+  }
+
+  .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: transparent;
+  }
+
+  .menu.active {
+      display: flex;
+      background-color: rgba(41, 37, 37, 0.875);
+  }
+
+  .menu .nav-link {
+      padding: 14px 20px;
+  }
+
+  .icon {
+      display: block;
+  }
+
+  .introduction{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 600px;
+    width: 800px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  h2{
+    color: #EA047E;
+    font-size: 25px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+  }
+}
